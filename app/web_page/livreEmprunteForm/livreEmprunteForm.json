@@ -1,10 +1,10 @@
 {
-  "id" : "selectedTitles",
-  "name" : "selectedTitles",
+  "id" : "livreEmprunteForm",
+  "name" : "livreEmprunteForm",
   "type" : "form",
-  "uuid" : "c4b7e720-8ab4-488a-bc7c-7a54d0a9dc54",
+  "uuid" : "690a4648-d2cd-4039-9592-1bd8a660f850",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750622760837,
+  "lastUpdate" : 1750952700983,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "f128fe50-3eee-4f05-8b84-2937ab055cad",
+        "reference" : "e85080cc-0a79-4481-afcb-37165adb718c",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -51,13 +51,9 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
                 }
               },
-              "reference" : "ce295ff7-52ed-4f07-8a14-839ad74c5c47",
+              "reference" : "b0d2981c-c294-4bd3-b9a1-7f55df2ae04e",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -94,7 +90,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "Voici la liste des livres que vous avez emprunté"
+                  "value" : "{{ task.displayDescription }}"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -117,77 +113,81 @@
                   "value" : 4
                 }
               },
-              "reference" : "1c0fb9a8-4192-4c0f-98a4-86b68975c752",
+              "reference" : "5d4bdfef-8835-4f89-aa33-55d49c572029",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
             }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "inline" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "quel livres voulez-vous retourner ?"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "livreEmprunte"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "title"
+                },
+                "returnedKey" : {
+                  "type" : "constant",
+                  "value" : "book_id_string"
+                },
+                "selectedValues" : {
+                  "type" : "variable",
+                  "value" : "selectedTitlesRetour"
+                }
+              },
+              "reference" : "02a460e6-886a-497f-8cb1-e10af2974088",
+              "hasValidationError" : false,
+              "id" : "pbChecklist"
+            }
           ]
         ]
-      }
-    ],
-    [
-      {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 12,
-          "lg" : 12
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "caption" : {
-            "type" : "interpolation"
-          },
-          "allowHTML" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "headers" : {
-            "type" : "constant",
-            "value" : [
-              "title",
-              "author"
-            ]
-          },
-          "content" : {
-            "type" : "expression",
-            "value" : "selectedTitles"
-          },
-          "columnsKey" : {
-            "type" : "constant",
-            "value" : [
-              "title",
-              "author"
-            ]
-          },
-          "selectedRow" : {
-            "type" : "variable"
-          },
-          "striped" : {
-            "type" : "constant",
-            "value" : true
-          },
-          "condensed" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "bordered" : {
-            "type" : "constant",
-            "value" : false
-          }
-        },
-        "reference" : "71f645f6-fc80-4417-bc6a-0f955b4db456",
-        "hasValidationError" : false,
-        "id" : "pbTable"
       }
     ],
     [
@@ -197,7 +197,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "c617a0a0-96d5-47be-a479-4534dd4a2a43",
+        "reference" : "691662ec-4448-461b-bbc9-679111ec590b",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -206,7 +206,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "b9e72bd6-c62e-4a73-8fb9-25c7acfcfccd",
+          "reference" : "19d172a6-c898-4935-8268-02138f9feef6",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -237,7 +237,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "OK"
+                    "value" : "Submit"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -306,7 +306,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "ee047bb6-938c-410e-aca2-01dff2b07dbf",
+                "reference" : "bb13be1a-d3f1-4dfc-bd18-5023fbdb3b4c",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -358,7 +358,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8e06c03e-420b-4513-bc4d-653321d538ee",
+                "reference" : "6abb2ded-0cdd-4502-b94d-ec4e7dce41d8",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -395,9 +395,24 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "",
-        "}"
+        "if ($data.selectedTitlesRetour) {\r",
+        "  return {\r",
+        "    livreEmprunteInput: $data.selectedTitlesRetour.map(id => ({\r",
+        "      persistenceId_string: id,\r",
+        "      title: \"kl\",\r",
+        "      author: \"kl\",\r",
+        "      user_id :\"4\",\r",
+        "      book_id : id\r",
+        "    }))\r",
+        "  };\r",
+        "}\r"
+      ],
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : [
+        "../API/bpm/userTask/{{taskId}}/context"
       ],
       "exposed" : false
     },
@@ -408,40 +423,40 @@
       ],
       "exposed" : false
     },
-    "selectedTitles" : {
+    "livreEmprunte" : {
       "type" : "url",
       "value" : [
-        "../{{context.selectedTitles_ref.link}}"
+        "../{{context.livreEmprunte_ref.link}}"
+      ],
+      "exposed" : false
+    },
+    "selectedTitlesRetour" : {
+      "type" : "expression",
+      "value" : [
+        "[]"
       ],
       "exposed" : false
     },
     "debug" : {
       "type" : "expression",
       "value" : [
-        "console.log(\"cochés :\", $data.selectedTitles);"
-      ],
-      "exposed" : false
-    },
-    "context" : {
-      "type" : "url",
-      "value" : [
-        "../API/bpm/userTask/{{taskId}}/context"
+        "console.log(\"📚 selectedTitlesRetour cochés :\", $data.selectedTitlesRetour);"
       ],
       "exposed" : false
     }
   },
   "assets" : [
     {
-      "id" : "a8d4e306-60fa-4d99-944f-5a8878e5d049",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "58ace60f-7dc0-4135-959d-5186a5e19c54",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "b38f6a2b-8d57-4acc-8d31-4875b40d0859",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "e547b37c-28f6-4a14-a2b8-30233e6fbc9a",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }

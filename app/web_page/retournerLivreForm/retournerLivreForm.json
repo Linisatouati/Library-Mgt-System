@@ -1,195 +1,12 @@
 {
-  "id" : "selectedTitles",
-  "name" : "selectedTitles",
+  "id" : "retournerLivreForm",
+  "name" : "retournerLivreForm",
   "type" : "form",
-  "uuid" : "c4b7e720-8ab4-488a-bc7c-7a54d0a9dc54",
+  "uuid" : "3f707c44-3605-4299-a178-938714d2f748",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750622760837,
+  "lastUpdate" : 1750695928834,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
-    [
-      {
-        "type" : "container",
-        "dimension" : {
-          "xs" : 12
-        },
-        "propertyValues" : { },
-        "reference" : "f128fe50-3eee-4f05-8b84-2937ab055cad",
-        "hasValidationError" : false,
-        "id" : "pbContainer",
-        "rows" : [
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "level" : {
-                  "type" : "constant",
-                  "value" : "Level 1"
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "center"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                }
-              },
-              "reference" : "ce295ff7-52ed-4f07-8a14-839ad74c5c47",
-              "hasValidationError" : false,
-              "id" : "pbTitle",
-              "description" : ""
-            }
-          ],
-          [
-            {
-              "type" : "component",
-              "dimension" : {
-                "md" : 12,
-                "sm" : 12,
-                "xs" : 12,
-                "lg" : 12
-              },
-              "propertyValues" : {
-                "allowHtml" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "labelHidden" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "label" : {
-                  "type" : "interpolation"
-                },
-                "text" : {
-                  "type" : "interpolation",
-                  "value" : "Voici la liste des livres que vous avez emprunté"
-                },
-                "alignment" : {
-                  "type" : "constant",
-                  "value" : "left"
-                },
-                "dimension" : {
-                  "type" : "constant",
-                  "value" : 12
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "labelPosition" : {
-                  "type" : "constant",
-                  "value" : "top"
-                },
-                "labelWidth" : {
-                  "type" : "constant",
-                  "value" : 4
-                }
-              },
-              "reference" : "1c0fb9a8-4192-4c0f-98a4-86b68975c752",
-              "hasValidationError" : false,
-              "id" : "pbText",
-              "description" : ""
-            }
-          ]
-        ]
-      }
-    ],
-    [
-      {
-        "type" : "component",
-        "dimension" : {
-          "xs" : 12,
-          "sm" : 12,
-          "md" : 12,
-          "lg" : 12
-        },
-        "propertyValues" : {
-          "cssClasses" : {
-            "type" : "constant",
-            "value" : ""
-          },
-          "hidden" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "caption" : {
-            "type" : "interpolation"
-          },
-          "allowHTML" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "headers" : {
-            "type" : "constant",
-            "value" : [
-              "title",
-              "author"
-            ]
-          },
-          "content" : {
-            "type" : "expression",
-            "value" : "selectedTitles"
-          },
-          "columnsKey" : {
-            "type" : "constant",
-            "value" : [
-              "title",
-              "author"
-            ]
-          },
-          "selectedRow" : {
-            "type" : "variable"
-          },
-          "striped" : {
-            "type" : "constant",
-            "value" : true
-          },
-          "condensed" : {
-            "type" : "constant",
-            "value" : false
-          },
-          "bordered" : {
-            "type" : "constant",
-            "value" : false
-          }
-        },
-        "reference" : "71f645f6-fc80-4417-bc6a-0f955b4db456",
-        "hasValidationError" : false,
-        "id" : "pbTable"
-      }
-    ],
     [
       {
         "type" : "formContainer",
@@ -197,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "c617a0a0-96d5-47be-a479-4534dd4a2a43",
+        "reference" : "179ae293-9b5f-4e9c-adb3-104859201dc5",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -206,7 +23,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "b9e72bd6-c62e-4a73-8fb9-25c7acfcfccd",
+          "reference" : "c875828b-7d4c-435f-b6f3-76ab36c4c298",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -237,7 +54,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "OK"
+                    "value" : "Retourner Livre"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -264,7 +81,7 @@
                   },
                   "action" : {
                     "type" : "constant",
-                    "value" : "Submit task"
+                    "value" : "Start process"
                   },
                   "collectionToModify" : {
                     "type" : "variable"
@@ -306,7 +123,7 @@
                     "value" : ""
                   }
                 },
-                "reference" : "ee047bb6-938c-410e-aca2-01dff2b07dbf",
+                "reference" : "9fa6918c-e1dd-4d92-b1be-949467962608",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -358,7 +175,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8e06c03e-420b-4513-bc4d-653321d538ee",
+                "reference" : "cf1f369e-f979-4ca9-a1b4-2f91229d2d83",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -370,10 +187,10 @@
     ]
   ],
   "variables" : {
-    "task" : {
-      "type" : "url",
+    "formInput" : {
+      "type" : "json",
       "value" : [
-        "../API/bpm/userTask/{{taskId}}"
+        "{ }"
       ],
       "exposed" : false
     },
@@ -400,46 +217,18 @@
         "}"
       ],
       "exposed" : false
-    },
-    "taskId" : {
-      "type" : "urlparameter",
-      "value" : [
-        "id"
-      ],
-      "exposed" : false
-    },
-    "selectedTitles" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.selectedTitles_ref.link}}"
-      ],
-      "exposed" : false
-    },
-    "debug" : {
-      "type" : "expression",
-      "value" : [
-        "console.log(\"cochés :\", $data.selectedTitles);"
-      ],
-      "exposed" : false
-    },
-    "context" : {
-      "type" : "url",
-      "value" : [
-        "../API/bpm/userTask/{{taskId}}/context"
-      ],
-      "exposed" : false
     }
   },
   "assets" : [
     {
-      "id" : "a8d4e306-60fa-4d99-944f-5a8878e5d049",
+      "id" : "44eb0b8d-c734-4e2e-a35f-6cb56e9f397e",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "b38f6a2b-8d57-4acc-8d31-4875b40d0859",
+      "id" : "562537bd-527a-44b6-8cea-9e87f7630ea9",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,

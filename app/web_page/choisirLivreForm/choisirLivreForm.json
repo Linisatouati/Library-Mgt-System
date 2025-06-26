@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "8ffab07a-d1ee-4ea9-b7c2-f90354ffc180",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750549871423,
+  "lastUpdate" : 1750685872668,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -179,7 +179,7 @@
                 },
                 "returnedKey" : {
                   "type" : "constant",
-                  "value" : "title"
+                  "value" : "persistenceId_string"
                 },
                 "selectedValues" : {
                   "type" : "variable",
@@ -244,8 +244,8 @@
                   "type" : "variable"
                 },
                 "dataToSend" : {
-                  "type" : "constant",
-                  "value" : ""
+                  "type" : "expression",
+                  "value" : "formOutput"
                 },
                 "dataFromSuccess" : {
                   "type" : "variable"
@@ -321,14 +321,23 @@
     "selectedTitles" : {
       "type" : "expression",
       "value" : [
-        "[]"
+        "[]\r"
       ],
       "exposed" : false
     },
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return { selectedTitles: $data.selectedTitles };"
+        "if ($data.selectedTitles) {\r",
+        "  return {\r",
+        "    selectedTitlesInput: $data.selectedTitles.map(id => ({\r",
+        "      persistenceId_string: id,\r",
+        "      title: \"kl\",\r",
+        "      author: \"kl\",\r",
+        "      isAvailable: false\r",
+        "    }))\r",
+        "  };\r",
+        "}\r"
       ],
       "exposed" : false
     },
