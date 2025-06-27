@@ -21,7 +21,18 @@
                 <field type="BOOLEAN" length="255" name="etat_emprunt" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
-            <queries/>
+            <queries>
+                <query name="findbyuserEtEmprunt" content="SELECT e &#13;&#10;FROM Emprunt e &#13;&#10;WHERE e.user_id = :user_id&#13;&#10;AND e.etat_emprunt = :etat_emprunt" returnType="java.util.List">
+                    <queryParameters>
+                        <queryParameter name="title" className="java.lang.String"/>
+                        <queryParameter name="author" className="java.lang.String"/>
+                        <queryParameter name="user_id" className="java.lang.Long"/>
+                        <queryParameter name="book_id" className="java.lang.Long"/>
+                        <queryParameter name="historique" className="java.time.LocalDate"/>
+                        <queryParameter name="etat_emprunt" className="java.lang.Boolean"/>
+                    </queryParameters>
+                </query>
+            </queries>
             <indexes/>
         </businessObject>
     </businessObjects>
