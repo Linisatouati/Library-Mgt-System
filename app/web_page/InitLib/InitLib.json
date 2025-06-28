@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "6a263220-080f-46f6-a6d4-dc54841e86a6",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750539782671,
+  "lastUpdate" : 1751136424231,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -43,23 +43,27 @@
                   },
                   "level" : {
                     "type" : "constant",
-                    "value" : "Level 4"
+                    "value" : "Level 3"
                   },
                   "cssClasses" : {
                     "type" : "constant",
-                    "value" : ""
+                    "value" : "titre-biblio"
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Books"
+                    "value" : "Nouvelle arrivée ? Ajoutez un livre"
                   },
                   "alignment" : {
                     "type" : "constant",
-                    "value" : "left"
+                    "value" : "center"
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "06f46690-c109-43fa-9875-58be8352619d",
@@ -123,7 +127,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "input-title"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -155,6 +159,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "b3e8bde4-664a-4377-9d21-5a0f437e29d1",
@@ -187,7 +217,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "input-author"
                         },
                         "labelWidth" : {
                           "type" : "constant",
@@ -219,6 +249,32 @@
                         "required" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "maxLength" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "debounce" : {
+                          "type" : "constant",
+                          "value" : 0
+                        },
+                        "min" : {
+                          "type" : "constant"
+                        },
+                        "max" : {
+                          "type" : "constant"
+                        },
+                        "step" : {
+                          "type" : "constant",
+                          "value" : 1
                         }
                       },
                       "reference" : "cc76f774-287e-4ce2-a502-9e5f97a42ed2",
@@ -247,7 +303,7 @@
                         },
                         "cssClasses" : {
                           "type" : "constant",
-                          "value" : ""
+                          "value" : "checkbox-available"
                         },
                         "disabled" : {
                           "type" : "constant",
@@ -264,6 +320,14 @@
                         "value" : {
                           "type" : "variable",
                           "value" : "$item.isAvailable"
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "19b98b46-fe4f-46d5-8070-e75907feeb5b",
@@ -342,6 +406,30 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "assign" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "url" : {
+                          "type" : "interpolation"
+                        },
+                        "responseStatusCode" : {
+                          "type" : "variable"
+                        },
+                        "dataFromSuccess" : {
+                          "type" : "variable"
+                        },
+                        "closeOnSuccess" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "dataFromError" : {
+                          "type" : "variable"
+                        },
+                        "modalId" : {
+                          "type" : "constant",
+                          "value" : ""
                         }
                       },
                       "reference" : "d563de68-e014-4f5f-951e-8ddcd1d0f3cf",
@@ -372,7 +460,7 @@
                   },
                   "cssClasses" : {
                     "type" : "constant",
-                    "value" : ""
+                    "value" : "btn-add-books"
                   },
                   "buttonStyle" : {
                     "type" : "constant",
@@ -417,11 +505,35 @@
                   },
                   "alignment" : {
                     "type" : "constant",
-                    "value" : "left"
+                    "value" : "center"
                   },
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "dataFromError" : {
+                    "type" : "variable"
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "71c8132f-2f8e-40ef-9396-43df7eb4aad9",
@@ -449,7 +561,7 @@
                   },
                   "cssClasses" : {
                     "type" : "constant",
-                    "value" : ""
+                    "value" : "btn-submit"
                   },
                   "buttonStyle" : {
                     "type" : "constant",

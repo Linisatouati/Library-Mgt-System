@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "57b2ae91-6af4-4fab-a6e9-2cdd162e21cf",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1751029624306,
+  "lastUpdate" : 1751053216945,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -22,10 +22,50 @@
             {
               "type" : "component",
               "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
                 "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "titre-biblio"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "Hitsorique des Utilisateurs"
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 3"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "4512634c-0258-48cd-a5a2-d0c81ea21455",
+              "hasValidationError" : false,
+              "id" : "pbTitle"
+            }
+          ],
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "md" : 6,
                 "sm" : 12,
                 "xs" : 12,
-                "lg" : 12
+                "lg" : 6
               },
               "propertyValues" : {
                 "hidden" : {
@@ -131,7 +171,7 @@
               "propertyValues" : {
                 "cssClasses" : {
                   "type" : "constant",
-                  "value" : ""
+                  "value" : "table-blanche"
                 },
                 "hidden" : {
                   "type" : "constant",

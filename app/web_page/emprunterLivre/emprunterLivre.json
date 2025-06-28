@@ -4,16 +4,65 @@
   "type" : "form",
   "uuid" : "0ab9f1a0-3e0a-4b6f-9195-f33884941816",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750278092505,
+  "lastUpdate" : 1751039382533,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
+    [
+      {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "titre-biblio"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Un livre vous attend — commencez votre emprunt"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 3"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "b563b5fc-6840-4720-b1c8-63e7517f3d10",
+        "hasValidationError" : false,
+        "id" : "pbTitle"
+      }
+    ],
     [
       {
         "type" : "formContainer",
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
         "reference" : "509e113d-57e3-456e-8450-5471b3af94f9",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
@@ -221,10 +270,10 @@
   },
   "assets" : [
     {
-      "id" : "a6d29a56-e36b-4017-a5bd-ee3fc273f60f",
-      "name" : "style.css",
+      "id" : "4f8ee24f-6423-4558-93b9-1b0d94b2ece3",
+      "name" : "stylish.css",
       "type" : "css",
-      "order" : 0,
+      "order" : 1,
       "external" : false
     },
     {

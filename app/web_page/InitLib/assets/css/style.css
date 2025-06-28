@@ -54,3 +54,93 @@ input[type='url'].ng-invalid.ng-dirty {
     }
 }
 
+/* Corps de page avec image de fond et centrage complet */
+html, body {
+  height: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1350&q=80' ) no-repeat center center fixed !important;
+  background-size: cover !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  color: #4a0000 !important;
+}
+
+/* Conteneur du formulaire */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  padding: 30px !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+  backdrop-filter: blur(3px) !important;
+  max-width: 500px !important;
+  width: 90% !important;
+  text-align: center !important;
+
+  transition: none !important;       /* désactive toute animation sur les enfants */
+
+
+}
+
+/* Styles inputs Titre et Auteur */
+.input-title, .input-author {
+  width: 100% !important;
+  padding: 10px 12px !important;
+  border: 2px solid #800020 !important;
+  border-radius: 6px !important;
+  background-color: #fff !important;
+  color: #4a0000 !important;
+  font-size: 1em !important;
+  transition: border-color 0.3s ease !important;
+  box-sizing: border-box !important;
+  margin-bottom: 15px !important;
+  
+}
+
+.input-title:focus, .input-author:focus {
+  border-color: #c04040 !important;
+  outline: none !important;
+}
+
+/* Checkbox */
+.checkbox-available {
+  width: 18px !important;
+  height: 18px !important;
+  cursor: pointer !important;
+  accent-color: #800020 !important;
+  border-radius: 4px !important;
+  margin: 10px 0 !important;
+}
+
+/* Bouton */
+button {
+  background-color: #4a0000 !important; /* Burgundy */
+  color: #ffffff !important;             
+  font-size: 1.3em !important;           /* Taille un peu plus grande */
+  font-weight: 600 !important;           /* Semi-gras */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  text-transform: uppercase !important;  /* Texte en majuscules */
+  letter-spacing: 1.5px !important;      /* Espacement entre lettres */
+  padding: 12px 24px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: #800020 !important;
+}
+
+.titre-biblio {
+  font-size: 3em;
+  color: #ffffff; /* beige clair, lisible et doux */
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="william.jobs">
+      <firstName>William</firstName>
+      <lastName>Jobs</lastName>
+      <title>Mr</title>
+      <jobTitle>Chief Executive Officer</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>william.jobs@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Melynda.MEZINE">
+      <firstName>Melynda</firstName>
+      <lastName>MEZINE</lastName>
+      <title>Mr</title>
+      <jobTitle>Human resources benefits</jobTitle>
+      <manager>helen.kelly</manager>
+      <personalData/>
+      <professionalData>
+        <email>walter.bates@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Mastane.MEZINE">
+      <firstName>Mastane</firstName>
+      <lastName>MEZINE</lastName>
+      <title>Mr</title>
+      <jobTitle>Chief Financial Officer</jobTitle>
+      <manager>william.jobs</manager>
+      <personalData/>
+      <professionalData>
+        <email>zachary.williamson@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Nicolas.HERBAULT">
+      <firstName>Nicolas</firstName>
+      <lastName>Herbault </lastName>
+      <title>Mr</title>
+      <jobTitle>Financial controller</jobTitle>
+      <manager>zachary.williamson</manager>
+      <personalData/>
+      <professionalData>
+        <email>patrick.gardenier@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Linisa.TOUATI">
+      <firstName>Linisa</firstName>
+      <lastName>TOUATI</lastName>
+      <title>Mrs</title>
+      <jobTitle>Accountant</jobTitle>
+      <manager>zachary.williamson</manager>
+      <personalData/>
+      <professionalData>
+        <email>virginie.jomphe@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Daniel.DIAZ">
+      <firstName>Daniel</firstName>
+      <lastName>DIAZ</lastName>
+      <title>Mr</title>
+      <jobTitle>Financial planning manager</jobTitle>
+      <manager>zachary.williamson</manager>
+      <personalData/>
+      <professionalData>
+        <email>thorsten.hartmann@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Rebecca.DENECKERE">
+      <firstName>Rebecca</firstName>
+      <lastName>DENECKERE</lastName>
+      <title>Mr</title>
+      <jobTitle>Consultant</jobTitle>
+      <manager>michael.morrison</manager>
+      <personalData/>
+      <professionalData>
+        <email>thomas.wallis@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Rym.TOUATI">
+      <firstName>Rym</firstName>
+      <lastName>TOUATI</lastName>
+      <title>Mrs</title>
+      <jobTitle>Account manager</jobTitle>
+      <manager>daniela.angelo</manager>
+      <personalData/>
+      <professionalData>
+        <email>misa.kumagai@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Irina.Rychkova">
+      <firstName>Irina</firstName>
+      <lastName>Rychkova</lastName>
+      <title>Mr</title>
+      <jobTitle>Account manager</jobTitle>
+      <manager>daniela.angelo</manager>
+      <personalData/>
+      <professionalData>
+        <email>norio.yamazaki@acme.com</email>
+        <phoneNumber>484-302-5000</phoneNumber>
+        <faxNumber>484-302-0000</faxNumber>
+        <building>70</building>
+        <address>Renwick Drive</address>
+        <zipCode>19108</zipCode>
+        <city>Philadelphia</city>
+        <state>PA</state>
+        <country>United States</country>
+      </professionalData>
+      <metaDatas>
+        <metaData name="Skype ID"/>
+        <metaData name="Twitter"/>
+        <metaData name="Facebook"/>
+      </metaDatas>
+      <enabled>true</enabled>
+      <password encrypted="false">bpm</password>
+    </user>
+    <user userName="Zahra.HADDOUCHE">
+      <firstName>Zahra</firstName>
+      <lastName>HADDOUCHE</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="walter.bates">
+      <firstName>Walter</firstName>
+      <lastName>Bates</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="member">
+      <displayName>Member</displayName>
+      <description></description>
+    </role>
+    <role name="Utilisateurs">
+      <displayName>Utilisateurs</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="MIAGE">
+      <displayName>miage</displayName>
+      <description>This group represents the acme department of the ACME organization</description>
+    </group>
+    <group name="Librarians" parentPath="/MIAGE">
+      <displayName>Librarians</displayName>
+    </group>
+    <group name="Utilisateurs" parentPath="/MIAGE">
+      <displayName>Utilisateurs </displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>william.jobs</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Melynda.MEZINE</userName>
+      <roleName>Utilisateurs</roleName>
+      <groupName>Utilisateurs</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Mastane.MEZINE</userName>
+      <roleName>Utilisateurs</roleName>
+      <groupName>Utilisateurs</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicolas.HERBAULT</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Linisa.TOUATI</userName>
+      <roleName>Utilisateurs</roleName>
+      <groupName>Utilisateurs</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Daniel.DIAZ</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Rebecca.DENECKERE</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Rym.TOUATI</userName>
+      <roleName>Utilisateurs</roleName>
+      <groupName>Utilisateurs</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Irina.Rychkova</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Zahra.HADDOUCHE</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+    <membership>
+      <userName>walter.bates</userName>
+      <roleName>member</roleName>
+      <groupName>Librarians</groupName>
+      <groupParentPath>/MIAGE</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>

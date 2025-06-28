@@ -54,3 +54,79 @@ input[type='url'].ng-invalid.ng-dirty {
     }
 }
 
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=1350&q=80%27') no-repeat center center fixed;
+
+
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+button {
+  background-color: #4a0000 !important; /* Burgundy */
+  color: #ffffff !important;             
+  font-size: 1.3em !important;           /* Taille un peu plus grande */
+  font-weight: 600 !important;           /* Semi-gras */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  text-transform: uppercase !important;  /* Texte en majuscules */
+  letter-spacing: 1.5px !important;      /* Espacement entre lettres */
+  padding: 12px 24px !important;
+  border: none !important;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+}
+
+button:hover {
+  background-color: #800020 !important;
+}
+
+.titre-biblio {
+  font-size: 3em;
+  color: #ffffff; /* beige clair, lisible et doux */
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+/* Conteneur de la checklist */
+.checklist-style {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  padding: 16px !important;
+  border-radius: 10px !important;
+  border: 2px solid #800020 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  color: #4a0000 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+/* Style des lignes d’items */
+.checklist-style .repeated-item {
+  margin-bottom: 12px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+}
+
+/* Personnalisation de la checkbox */
+.checkbox-custom {
+  width: 20px !important;
+  height: 20px !important;
+  accent-color: #800020 !important;  /* couleur bordeaux */
+  border-radius: 4px !important;
+  cursor: pointer !important;
+}
+
+

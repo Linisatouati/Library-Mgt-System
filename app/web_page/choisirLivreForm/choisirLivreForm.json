@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "8ffab07a-d1ee-4ea9-b7c2-f90354ffc180",
   "modelVersion" : "2.6",
-  "lastUpdate" : 1750685872668,
+  "lastUpdate" : 1751054599836,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -46,11 +46,11 @@
                 },
                 "level" : {
                   "type" : "constant",
-                  "value" : "Level 1"
+                  "value" : "Level 3"
                 },
                 "cssClasses" : {
                   "type" : "constant",
-                  "value" : ""
+                  "value" : "titre-biblio"
                 },
                 "text" : {
                   "type" : "interpolation",
@@ -135,7 +135,7 @@
               "propertyValues" : {
                 "cssClasses" : {
                   "type" : "constant",
-                  "value" : ""
+                  "value" : "checklist-style"
                 },
                 "hidden" : {
                   "type" : "constant",
@@ -159,7 +159,7 @@
                 },
                 "label" : {
                   "type" : "interpolation",
-                  "value" : "veuillez cocher les livres à sélectionner"
+                  "value" : ""
                 },
                 "labelPosition" : {
                   "type" : "constant",
